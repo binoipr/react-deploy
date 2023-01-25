@@ -36,7 +36,7 @@ export default function App() {
     <>
       {!authenticated && (
         <>
-          <h1>Login</h1>
+          <h1 className="app-login">Login</h1>
           <button type="button" onClick={() => setAuthenticated(true)}>
             Click here to login
           </button>
